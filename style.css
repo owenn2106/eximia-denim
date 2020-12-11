@@ -1,0 +1,614 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+header {
+    background: url("images/landing.jpg");
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+li, a {
+    text-decoration: none;
+    color: #edf0f1;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 15vh;
+    padding: 0px 100px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    padding-left: 5rem;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+
+.nav_links li a {
+    transform: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    opacity: 0.5;
+}
+
+#logo {
+    font-family: "Lobster", cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+    color: #edf0f1;
+    margin-right: auto;
+}
+
+.cta {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    padding: 9px 25px;
+    background-color: rgba(255, 179, 0, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transform: all 0.3s ease 0s;
+    margin-left: 70px;
+    letter-spacing: 3px;
+}
+
+.cta:hover {
+    background-color: rgba(255, 179, 0, 0.8);
+}
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #edf0f1;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.big-text {
+    position: absolute;
+    top: 27vh;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+    color: #edf0f1;
+}
+
+/* intro animation */
+
+.intro {
+    background: #24252A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text {
+    color: rgb(202, 217, 230);
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+}
+
+.hide {
+    background: #24252A;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
+
+.slider {
+    background: rgb(131, 135, 138);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+}
+
+/* featured products header + background */
+
+.featured-products {
+    background-color: #eeeeee;
+    min-height: 50vh;
+}
+
+.featured-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+}
+
+.featured-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    letter-spacing: 5px;
+    padding-bottom: 15px;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 85%;               
+    background-color:#24252A;
+    height: 1px;
+    margin-bottom: 30px;
+  }
+
+/* featured products pictures */
+
+.featured .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 100px 50px 0px;
+}
+
+.col-3 {
+    padding-left: 100px;
+}
+
+/* facemask */
+
+.face-mask {
+    background: #eeeeee;
+    position: relative;
+    padding-top: 20px;
+}
+
+.mask-text {
+    position: absolute;
+    top: 40%;
+    left: 150px;
+}
+
+.face-mask h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #edf0f1;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.face-mask p {
+    font-family: "Montserrat", sans-serif;
+    color: #edf0f1;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.mask-btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    padding: 9px 25px;
+    background-color: rgba(255, 179, 0, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transform: all 0.3s ease 0s;
+}
+
+.mask-btn:hover {
+    background-color: rgba(255, 179, 0, 0.8);
+}
+
+
+/* Instagram Posts */
+
+.insta {
+    background-color: #edf0f1;
+    min-height: 50vh;
+    padding-bottom: 30px;
+}
+
+.insta-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.insta-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    letter-spacing: 5px;
+    padding-bottom: 15px;
+}
+
+.insta-text a {
+    color: #24252A;
+}
+
+.row-ig {
+    display: flex;
+    justify-content: center;
+}
+
+.ig-post {
+    width:300px; 
+    height: 300px; 
+    object-fit: cover;
+    padding: 20px;
+    cursor: pointer;
+}
+
+/* footer */
+
+footer {
+    font-family: "Montserrat", sans-serif;
+    bottom: 0px;
+    width: 100%;
+    background-color: #24252A;
+    padding-top: 30px;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 50px;
+}
+
+.box h2 {
+    color: #edf0f1;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+}
+
+.box p {
+    color: #edf0f1;
+}
+
+.box .text {
+    color: #edf0f1;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.box .content:before {
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+}
+
+.box .content:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: rgba(255, 179, 0, 1);
+    top: -10px;
+}
+
+.left .content p {
+    text-align: justify;
+    line-height: 30px;
+}
+
+.left .content .social {
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a {
+    margin: 0 2px;
+}
+
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #101113;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border: 5px;
+    transition: 0.3s;
+}
+
+.left .content .social a span:hover {
+    cursor: pointer;
+    background: rgba(255, 179, 0, 1);
+}
+
+.center .content .place, .number {
+    margin-bottom: 10px;
+}
+
+.center .content .fa {
+    color: #edf0f1;
+    height: 40px;
+    width: 40px;
+    font-size: 1rem;
+    background: #101113;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.center .content .fa:hover {
+    background: rgba(255, 179, 0, 1);
+}
+
+.center .content .text {
+    font-size: 1.0625rem;
+    padding-left: 10px;
+}
+
+.right form textarea {
+    resize: none;
+}
+
+.right form input, textarea {
+    width: 100%;
+    font-size: 1.0625rem;
+    background: #151515;
+    padding-left: 10px;
+    border: 1px solid #222222;
+}
+
+.right form input:focus, textarea:focus {
+    outline-color: rgba(255, 179, 0, 1);
+}
+
+.right .content .text {
+    padding-bottom: 10px;
+}
+
+.right .content input {
+    margin-bottom: 10px;
+    height: 35px;
+}
+
+.right form .btn {
+    margin-top: 20px;
+}
+
+.right form .btn button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: rgba(255, 179, 0, 1);
+    font-size: 1.0625rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.right form .btn button:hover {
+    background: rgba(255, 179, 0, 0.8)
+}
+
+.bottom center {
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+}
+
+.bottom center span {
+    color: #656565;
+    font-family: "Montserrat", sans-serif;
+}
+
+.bottom center a {
+    color: rgba(255, 179, 0, 1);
+}
+
+@media screen and (max-width: 1150px) {
+
+    #logo {
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .nav-links li {
+        font-size: 0.8rem;
+    }
+
+    .big-text {
+        top: 75vh;
+    }
+
+    .mask-text {
+        top: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .face-mask h2 {
+        text-align: center;
+        padding-bottom: 450px;
+    }
+    
+
+    .face-mask p {
+        text-align: center;
+        line-height: 30px;
+        white-space: nowrap;
+    }
+
+    .mask-btn {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .row-ig {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* footer */
+    
+    .main-content {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 790px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    #logo {
+        white-space: nowrap;
+    }
+
+    .intro-text {
+        font-size: 2rem;
+    }
+
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 100vh;
+        top: 0px;
+        background-color: rgba(255, 179, 0, 0.9);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 200px;
+        padding-left: 0;
+        padding-right: 75px;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .nav-links li {
+        font-size: 1.2rem;
+        padding-bottom: 100px;
+        opacity: 0;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .cta {
+        position: absolute;
+        right: 65px;
+        top: 700px;
+        background-color: rgba(36, 37, 32, 1);
+        transform: translateX(200%);
+    }
+
+    .cta:hover {
+        background-color: rgba(36, 37, 32, 0.8);
+    }
+
+    .big-text {
+        font-size: 1.8rem;
+    }
+
+    .featured .row {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .col-3 {
+        margin: 40px 0 0 0;
+    }
+
+    .face-mask h2 {
+        padding-bottom: 420px;
+        white-space: nowrap;
+    }
+
+    .face-mask p {
+        white-space: normal;
+    }
+
+    .insta-text {
+        text-align: center;
+        line-height: 35px;
+    }
+
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
