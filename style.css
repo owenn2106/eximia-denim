@@ -587,6 +587,10 @@ footer {
         justify-content: center;
     }
 
+    .featured-div hr {
+        width: 30vh;
+    }
+
     .featured .row {
         display: flex;
         flex-direction: column;
