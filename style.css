@@ -178,7 +178,7 @@ nav {
     border: 0;
     clear:both;
     display:block;
-    width: 100%;               
+    width: 50vh;               
     background-color:#24252A;
     height: 1px;
     margin-bottom: 30px;
@@ -582,10 +582,6 @@ footer {
         white-space: nowrap;
     }
 
-    .featured-div hr {
-        width: 50%;
-      }
-
     .featured-text {
         text-align: center;
         justify-content: center;
@@ -612,10 +608,6 @@ footer {
     .insta-text {
         text-align: center;
         line-height: 35px;
-    }
-
-    .insta-header hr {
-        width: 85%;
     }
 
 }
