@@ -17,6 +17,12 @@ body {
   overflow-x: hidden;
 }
 
+html, body {
+    overflow-x: hidden;
+    position: relative;
+    height: 100%;
+}
+
 header {
     background: url("images/landing.jpg");
     background-size: cover;
