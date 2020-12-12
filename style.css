@@ -582,6 +582,10 @@ footer {
         white-space: nowrap;
     }
 
+    .featured-div hr {
+        width: 80%;
+      }
+
     .featured-text {
         text-align: center;
         justify-content: center;
@@ -608,6 +612,10 @@ footer {
     .insta-text {
         text-align: center;
         line-height: 35px;
+    }
+
+    .insta-header hr {
+        width: 85%;
     }
 
 }
