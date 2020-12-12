@@ -40,6 +40,7 @@ nav {
     justify-content: space-around;
     min-height: 15vh;
     padding: 0px 100px;
+    overflow: hidden;
 }
 
 .nav-links {
