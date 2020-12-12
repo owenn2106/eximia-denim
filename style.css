@@ -296,6 +296,12 @@ nav {
     object-fit: cover;
     padding: 20px;
     cursor: pointer;
+    filter: brightness(100%);
+    transition: filter 0.3s ease;
+}
+
+.ig-post:hover {
+    filter: brightness(50%);
 }
 
 /* footer */
