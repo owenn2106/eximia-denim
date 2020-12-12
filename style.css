@@ -265,6 +265,10 @@ hr {
     color: #24252A;
 }
 
+.insta-text a:hover {
+    color: rgba(255, 179, 0, 1);
+}
+
 .row-ig {
     display: flex;
     justify-content: center;
@@ -352,6 +356,7 @@ footer {
 .left .content .social a span{
     height: 40px;
     width: 40px;
+    color: #edf0f1;
     background: #101113;
     line-height: 40px;
     text-align: center;
@@ -473,10 +478,9 @@ footer {
 
     .face-mask h2 {
         text-align: center;
-        padding-bottom: 450px;
+        padding-bottom: 70vh;
     }
     
-
     .face-mask p {
         text-align: center;
         line-height: 30px;
@@ -490,7 +494,6 @@ footer {
     }
 
     .row-ig {
-        display: flex;
         flex-direction: column;
         align-items: center;
     }
@@ -547,10 +550,11 @@ footer {
 
     .cta {
         position: absolute;
-        right: 65px;
-        top: 700px;
+        right: 75px;
+        top: 90vh;
         background-color: rgba(36, 37, 32, 1);
         transform: translateX(200%);
+        transition: transform 0.5s ease-in;
     }
 
     .cta:hover {
@@ -571,7 +575,7 @@ footer {
     }
 
     .face-mask h2 {
-        padding-bottom: 420px;
+        padding-bottom: 65vh;
         white-space: nowrap;
     }
 
