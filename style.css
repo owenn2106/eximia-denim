@@ -153,6 +153,10 @@ nav {
 .featured-products {
     background-color: #eeeeee;
     min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .featured-div {
@@ -168,14 +172,13 @@ nav {
     font-size: 24px;
     letter-spacing: 5px;
     padding-bottom: 15px;
-    text-align: center;
 }
 
-hr {
+.featured-div hr {
     border: 0;
     clear:both;
     display:block;
-    width: 85%;               
+    width: 100%;               
     background-color:#24252A;
     height: 1px;
     margin-bottom: 30px;
@@ -262,6 +265,16 @@ hr {
     font-size: 24px;
     letter-spacing: 5px;
     padding-bottom: 15px;
+}
+
+.insta-header hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 60%;               
+    background-color:#24252A;
+    height: 1px;
+    margin-bottom: 30px;
 }
 
 .insta-text a {
@@ -566,6 +579,12 @@ footer {
 
     .big-text {
         font-size: 1.8rem;
+        white-space: nowrap;
+    }
+
+    .featured-text {
+        text-align: center;
+        justify-content: center;
     }
 
     .featured .row {
