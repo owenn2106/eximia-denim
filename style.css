@@ -12,12 +12,8 @@ body::-webkit-scrollbar {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 body {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-  overflow-x: hidden;
-}
-
-html, body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
     overflow-x: hidden;
     position: relative;
     height: 100%;
@@ -538,6 +534,8 @@ footer {
 
     body {
         overflow-x: hidden;
+        position: relative;
+        height: 100%;
     }
 
     #logo {
