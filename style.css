@@ -7,12 +7,14 @@
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
     display: none;
+    overflow-x: hidden;
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+  overflow-x: hidden;
 }
 
 header {
@@ -166,6 +168,7 @@ nav {
     font-size: 24px;
     letter-spacing: 5px;
     padding-bottom: 15px;
+    text-align: center;
 }
 
 hr {
