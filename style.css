@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-html, body {
-    position: relative;
-    overflow-x: hidden;
-}
-
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
     display: none;
@@ -585,6 +580,7 @@ footer {
     .burger {
         display: block;
         cursor: pointer;
+        padding-left: 50px;
     }
 
     .cta {
