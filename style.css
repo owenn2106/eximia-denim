@@ -637,6 +637,14 @@ footer {
         line-height: 35px;
     }
 
+    .center .content {
+        white-space: nowrap;
+    }
+
+    .center .content .text {
+        white-space: nowrap;
+    }
+
 }
 
 .nav-active {
