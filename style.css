@@ -481,6 +481,10 @@ footer {
 
 @media screen and (max-width: 1150px) {
 
+    body, html {
+        overflow-x: hidden;
+    }
+
     #logo {
         font-size: x-large;
         text-align: center;
