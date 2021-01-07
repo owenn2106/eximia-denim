@@ -24,7 +24,7 @@ header {
     background-position: center top;
     height: 100vh;
     width: 100%;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
 }
 
 li, a {
@@ -105,7 +105,7 @@ nav {
     left: 50%;
     transform: translate(-50%, -30%);
     font-size: 3rem;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     color: #edf0f1;
 }
 
@@ -125,7 +125,7 @@ nav {
 
 .intro-text {
     color: rgb(202, 217, 230);
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     font-size: 3rem;
 }
 
@@ -169,7 +169,7 @@ nav {
 }
 
 .featured-text {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     font-size: 24px;
     letter-spacing: 5px;
     padding-bottom: 15px;
@@ -263,7 +263,7 @@ nav {
 }
 
 .insta-text {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     font-size: 24px;
     letter-spacing: 5px;
     padding-bottom: 15px;
