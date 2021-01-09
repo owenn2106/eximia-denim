@@ -239,10 +239,15 @@ nav {
     cursor: pointer;
     transform: all 0.3s ease 0s;
     white-space: nowrap;
+    margin-top: 10px;
 }
 
 .mask-btn:hover {
     background-color: rgba(255, 179, 0, 0.8);
+}
+
+.mask-btn:active, .mask-btn:focus {
+    outline: none;
 }
 
 
@@ -519,6 +524,7 @@ footer {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
+        margin-top: 0;
     }
 
     .row-ig {
